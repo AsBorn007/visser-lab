@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* resuable code  */
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.container_padding{
+    padding:  0 12px;
+}
+
+#body{
+    font-family: "Quicksand", serif;
+}
+
+:root{
+    --primary-color: #86c305;
+    --secondry-color:#0e1400;
+    --tertry-color:#0a0f00;
+    --text-color:#757575;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+}
